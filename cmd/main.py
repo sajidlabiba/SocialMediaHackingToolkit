@@ -18,10 +18,10 @@ if vpn == 1:
 
 
 if choice == 1:
-	choice = start_instagram()
+	choice = start_instagram(1)
 	if choice == 1:
-		username = get_username()
-		wordlist = get_wordlist()
+		username = labibanowmin()
+		wordlist = password()
 		insta_bruteforce(username, wordlist, vpn)
 	if choice == 2:
 		username = get_username()
